@@ -1,0 +1,5 @@
+.navbar-light .navbar-nav .nav-link {
+  font-size: small;
+  font-weight: 520;
+  color: var(--bs-primary) !important;
+}
