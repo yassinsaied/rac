@@ -1,5 +1,38 @@
 .navbar-light .navbar-nav .nav-link {
   font-size: small;
-  font-weight: 520;
+  font-weight: 600;
   color: var(--bs-primary) !important;
+}
+
+.navbar-light .left-main-menu .nav-link:hover,
+.navbar-light .left-main-menu .nav-link:active,
+.navbar-light .right-main-menu .inscription {
+  border-radius: 25px;
+}
+
+.navbar-light .left-main-menu .nav-link:hover {
+  background-color: #f8f9fa;
+}
+.navbar-light .left-main-menu .nav-link:active {
+  color: var(--bs-secondary) !important;
+  background-color: #fdefef;
+}
+
+.navbar-light .right-main-menu .nav-link:hover,
+.navbar-light .right-main-menu .nav-link:active {
+  color: var(--bs-secondary) !important;
+  background-color: none;
+}
+
+.navbar-light .right-main-menu .inscription {
+  background-color: var(--bs-primary);
+  color: #fff !important;
+}
+.navbar-light .right-main-menu .inscription:hover {
+  background-color: var(--bs-secondary);
+  color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
 }

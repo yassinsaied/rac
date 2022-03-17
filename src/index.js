@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "bootswatch/dist/minty/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "./custom.css";
+
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
