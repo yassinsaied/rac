@@ -1,9 +1,32 @@
 .ctnr-fast-Search-form {
-  position: relative;
-  z-index: 1030;
-  margin-top: -100px;
+    position: relative;
+    z-index: 1030;
+    margin-top: -100px;
 }
 
 .ctnr-fast-Search-form .row-form {
-  background-color: #fff;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.ctnr-fast-Search-form .row-form .filter-fast {
+    background-color: var(--bs-info);
+    border: none;
+    color: var(--bs-primary);
+    font-weight: 500;
+}
+
+.ctnr-fast-Search-form .row-form .btn-search {
+    background-color: var(--bs-secondary);
+    border: none;
+}
+
+.ctnr-fast-Search-form .row-form .filter-fast:focus,
+.ctnr-fast-Search-form .row-form .filter-fast:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.ctnr-fast-Search-form .row-form .filter-fast .fa-plus {
+    font-size: 15px;
 }

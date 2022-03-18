@@ -8,12 +8,12 @@ const FullScreenVideo = () => {
     <>
       <div className="overlay"></div>
 
-      {/* <video playsinline="playsinline" muted="muted" loop="loop">
+      <video playsinline="playsinline" muted="muted" loop="loop" autoplay="autoplay">
         <source
           src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
           type="video/mp4"
-        />
-      </video> */}
+          />
+      </video>
 
       <div className="container h-100 slogan-video">
         <div className="d-flex h-100 align-items-center">

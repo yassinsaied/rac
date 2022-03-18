@@ -1,24 +1,27 @@
 // @flow
 import * as React from "react";
 import { Form, Container, Button, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus , faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 import "./fastSearchForm.css";
 const fastSearchForm = () => {
   return (
     <>
-      <Container className="ctnr-fast-Search-form">
-        <Row className="d-flex align-items-center rounded row-form">
-          <Form className="row gx-3 gy-2 align-items-center fast-Search-form">
-            <div class="col-sm-3">
+      <Container className="ctnr-fast-Search-form ">
+      
+        <Row className=" align-items-center rounded row-form py-2 px-3 ">
+          <Form className="row d-flex justify-content-between gy-2 align-items-center fast-Search-form">
+            <div class="col-3 ">
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
             </div>
-            <div class="col-sm-3">
+            <div class="col-3">
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
             </div>
-            <div class="col-sm-3">
+            <div class="col-3">
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Select>
                   <option>Open this select menu</option>
@@ -29,10 +32,16 @@ const fastSearchForm = () => {
               </Form.Group>
             </div>
 
-            <div class="col-sm-3">
-              <Form.Group className="mb-3">
-                <Button variant="primary" type="submit" size="md">
-                  Submit
+            <div class="col-3">
+              <Form.Group className="mb-3 d-flex justify-content-end">
+                <Button className="filter-fast me-2" type="submit" size="md">
+                <FontAwesomeIcon icon={faPlus} className="pe-2" />
+                  Plus de filters
+                </Button>
+
+                <Button className="btn-search me-0" type="submit" size="md">
+                <FontAwesomeIcon icon={faMagnifyingGlass}  />
+                 
                 </Button>
               </Form.Group>
             </div>
