@@ -1,0 +1,9 @@
+.ctnr-fast-Search-form {
+  position: relative;
+  z-index: 1030;
+  margin-top: -100px;
+}
+
+.ctnr-fast-Search-form .row-form {
+  background-color: #fff;
+}
