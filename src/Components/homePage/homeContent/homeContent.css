@@ -1,0 +1,218 @@
+.tow-card-home {
+  box-sizing: border-box;
+}
+
+.tow-card-home .big-card {
+  width: 48%;
+  background-color: transparent;
+}
+
+.bg-mage-tow-card {
+  margin-top: -90px !important;
+  margin-bottom: 60px;
+}
+
+.abslt-slogan {
+  position: absolute;
+  display: block;
+}
+
+.abslt-slogan .h4-slogan {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--bs-primary);
+  width: 50%;
+}
+
+.abslt-slogan .multicolore-1,
+.abslt-slogan .multicolore-2,
+.multicolore-3 {
+  background-clip: text;
+  -webkit-background-clip: text !important;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.multicolore-1,
+.multicolore-3 {
+  background: linear-gradient(
+    to left,
+    #e86161,
+    #a66070,
+    #a66070,
+    #615f80,
+    #358197
+  );
+}
+
+.multicolore-2 {
+  background: linear-gradient(
+    to left,
+    #e86161,
+    #a66070,
+    #a66070,
+    #615f80,
+    #358197
+  );
+}
+.container-litle-card {
+  background-color: #fdfdfd;
+}
+
+.litle-card {
+  min-height: 320px;
+}
+
+.laptop-img-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60% !important;
+}
+
+.img-trust {
+  max-height: 65px;
+}
+.clear-correct {
+  max-width: 200px;
+  max-height: 35px;
+}
+.trust-us-title {
+  font-weight: 500;
+  color: #8997a0 !important;
+}
+.trust-us {
+  margin-top: 200px !important;
+}
+
+@media (max-width: 575.98px) {
+  .abslt-slogan {
+    left: 50px;
+    top: 10%;
+    width: 60% !important;
+  }
+
+  .abslt-slogan .h4-slogan {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .abslt-slogan .multicolore-1,
+  .abslt-slogan .multicolore-2,
+  .multicolore-3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .multicolore-3 {
+    font-size: 15px;
+  }
+
+  .h4-custom {
+    font-size: 15px;
+    width: 100% !important;
+  }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .abslt-slogan {
+    left: 50px;
+    top: 10%;
+    width: 60% !important;
+  }
+
+  .abslt-slogan .h4-slogan {
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .abslt-slogan .multicolore-1,
+  .abslt-slogan .multicolore-2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .multicolore-3 {
+    font-size: 18px;
+  }
+
+  .h4-custom {
+    font-size: 15px;
+    width: 60% !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .multicolore-3 {
+    font-size: 22px;
+  }
+
+  .h4-custom {
+    font-size: 20px;
+    width: 60% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .abslt-slogan {
+    left: 70px;
+    top: 10%;
+    width: 80% !important;
+  }
+
+  .abslt-slogan .h4-slogan {
+    font-size: 25px;
+    font-weight: 400;
+    width: 70%;
+  }
+
+  .abslt-slogan .multicolore-1,
+  .abslt-slogan .multicolore-2 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .multicolore-3 {
+    font-size: 25px;
+  }
+
+  .h4-custom {
+    width: 70% !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .abslt-slogan {
+    left: 100px;
+    top: 20%;
+    width: 80% !important;
+  }
+
+  .abslt-slogan .h4-slogan {
+    font-size: 30px;
+    font-weight: 400;
+    width: 70%;
+  }
+
+  .abslt-slogan .multicolore-1,
+  .abslt-slogan .multicolore-2,
+  .multicolore-3 {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .multicolore-3 {
+    font-size: 30px;
+  }
+
+  .h4-custom {
+    width: 50% !important;
+  }
+}
