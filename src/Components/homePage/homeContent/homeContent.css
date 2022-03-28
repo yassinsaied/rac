@@ -86,6 +86,81 @@
   margin-top: 200px !important;
 }
 
+#myTab-home {
+}
+.tab-li-home {
+  max-width: 15%;
+  width: 15%;
+  text-align: left;
+}
+.tab-li-home .tab-button-home {
+  text-align: left;
+  font-weight: 500;
+  width: 100%;
+  color: #495057;
+  border: 2px solid !important;
+  background-color: #fff !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+#client {
+  background-color: #f7fafb;
+}
+#salarie {
+  background-color: #f9fbfa;
+}
+
+#investisseur {
+  background-color: #fbfbfa;
+}
+
+#fornisseur {
+  background-color: #f7f9fb;
+}
+
+#condidat {
+  background-color: #fbf9fb;
+}
+
+#associations {
+  background-color: #fefbfb;
+}
+
+li[role="client"] .active,
+li[role="client"] .nav-link:hover {
+  color: #6eb9c0 !important;
+}
+
+li[role="salarie"] .active,
+li[role="salarie"] .nav-link:hover {
+  color: #82c2b1 !important;
+}
+
+li[role="investisseur"] .active,
+li[role="investisseur"] .nav-link:hover {
+  color: #e5c78c !important;
+}
+
+li[role="fornisseur"] .active,
+li[role="fornisseur"] .nav-link:hover {
+  color: #3e6fa0 !important;
+}
+
+li[role="condidat"] .active,
+li[role="condidat"] .nav-link:hover {
+  color: #c68fbc !important;
+}
+
+li[role="associations"] .active,
+li[role="associations"] .nav-link:hover {
+  color: #ed8686 !important;
+}
+
 @media (max-width: 575.98px) {
   .abslt-slogan {
     left: 50px;

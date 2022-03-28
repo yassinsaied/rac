@@ -10,22 +10,19 @@ const homeContent = () => {
           <Card className="big-card py-4">
             <Card.Body>
               <h4 className="text-uppercase text-secondary ">Particulier</h4>
-              <Card.Text className="my-4">
-                <h5 className="w-75">
-                  Contribuez à améliorer l'impacte des entreprises
-                </h5>
-                <p className="my-4 text-justify">
-                  <small>
-                    is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its
-                    layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text.
-                  </small>
-                </p>
+              <h5 className="w-75 my-4">
+                Contribuez à améliorer l'impacte des entreprises
+              </h5>
+              <Card.Text className="my-4 text-justify">
+                <small>
+                  is a long established fact that a reader will be distracted by
+                  the readable content of a page when looking at its layout. The
+                  point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text.
+                </small>
               </Card.Text>
               <Button className="secondary-btn radius-25">
                 Inscription gratuite
@@ -36,22 +33,19 @@ const homeContent = () => {
           <Card className="big-card py-4">
             <Card.Body>
               <h4 className="text-uppercase text-secondary">professionnel</h4>
-              <Card.Text className="my-4">
-                <h5 className="w-75">
-                  Contribuez à améliorer l'impacte des entreprises
-                </h5>
-                <p className="my-4 text-justify">
-                  <small>
-                    is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its
-                    layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text.
-                  </small>
-                </p>
+              <h5 className="w-75 my-4">
+                Contribuez à améliorer l'impacte des entreprises
+              </h5>
+              <Card.Text className="my-4 text-justify">
+                <small>
+                  is a long established fact that a reader will be distracted by
+                  the readable content of a page when looking at its layout. The
+                  point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text.
+                </small>
               </Card.Text>
               <Button className="secondary-btn radius-25">
                 Je découvre les audis RSE
@@ -61,7 +55,7 @@ const homeContent = () => {
 
           <img
             src={process.env.PUBLIC_URL + "images/blockcard-pro.png"}
-            class="img-fluid bg-mage-tow-card"
+            className="img-fluid bg-mage-tow-card"
             alt="PARTICULIER AND PROFESSIONNEL"
           />
         </div>
@@ -82,7 +76,7 @@ const homeContent = () => {
           <div className="col-7">
             <img
               src={process.env.PUBLIC_URL + "images/criteres.png"}
-              class="img-fluid"
+              className="img-fluid"
               alt="C'est vous qui le faite"
             />
           </div>
@@ -94,91 +88,89 @@ const homeContent = () => {
             Un seule outil pour s'engage dans une demarche durable
           </h4>
           <div className="col-10 text-center">
-            <div class="row row-cols-1 row-cols-md-4 g-4 my-3">
-              <div class="col">
+            <div className="row row-cols-1 row-cols-md-4 g-4 my-3">
+              <div className="col">
                 <Card className="litle-card shadow">
                   <Card.Body>
                     <img
                       src={process.env.PUBLIC_URL + "images/adress-img.png"}
-                      class="img-fluid"
+                      className="img-fluid"
                       alt="C'est vous qui le faite"
                     />
-                    <Card.Text className="">
-                      <h6 className="text-primary h6-litle-card">
-                        S'adresse à toutes les entreprises
-                      </h6>
-                      <p className="very-small-text">
+                    <h6 className="text-primary h6-litle-card">
+                      S'adresse à toutes les entreprises
+                    </h6>
+                    <Card.Text>
+                      <span className="very-small-text">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout. The point of using Lorem Ipsum is
                         that it has a more-or-less normal distribution.
-                      </p>
+                      </span>
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </div>
-              <div class="col">
+              <div className="col">
                 <Card className="litle-card shadow">
                   <Card.Body>
                     <img
                       src={process.env.PUBLIC_URL + "images/evaluation.png"}
-                      class="img-fluid"
+                      className="img-fluid"
                       alt="C'est vous qui le faite"
                     />
-                    <Card.Text className="">
-                      <h6 className="text-primary h6-litle-card">
-                        Tout évaluer
-                      </h6>
-                      <p className="very-small-text">
+                    <h6 className="text-primary h6-litle-card">Tout évaluer</h6>
+                    <Card.Text>
+                      <span className="very-small-text">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout. The point of using Lorem Ipsum is
                         that it has a more-or-less normal distribution.
-                      </p>
+                      </span>
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </div>
-              <div class="col">
+              <div className="col">
                 <Card className="litle-card shadow">
                   <Card.Body>
                     <img
                       src={process.env.PUBLIC_URL + "images/utilisateur.png"}
-                      class="img-fluid"
+                      className="img-fluid"
                       alt="C'est vous qui le faite"
                     />
-                    <Card.Text className="">
-                      <h6 className="text-primary h6-litle-card">
-                        Garantir des utilisateurs vérifier
-                      </h6>
-                      <p className="very-small-text">
+                    <h6 className="text-primary h6-litle-card">
+                      Garantir des utilisateurs vérifier
+                    </h6>
+                    <Card.Text>
+                      <span className="very-small-text">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout. The point of using Lorem Ipsum is
                         that it has a more-or-less normal distribution.
-                      </p>
+                      </span>
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </div>
-              <div class="col">
+              <div className="col">
                 <Card className="litle-card shadow">
                   <Card.Body>
                     <img
                       src={process.env.PUBLIC_URL + "images/partenair.png"}
-                      class="img-fluid"
+                      className="img-fluid"
                       alt="C'est vous qui le faite"
                     />
-                    <Card.Text className="">
-                      <h6 className="text-primary h6-litle-card">
-                        Partenaires RSE
-                      </h6>
-                      <p className="very-small-text">
+                    <h6 className="text-primary h6-litle-card">
+                      Partenaires RSE
+                    </h6>
+                    <Card.Text>
+                      <span className="very-small-text">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
                         looking at its layout. The point of using Lorem Ipsum is
                         that it has a more-or-less normal distribution.
-                      </p>
+                      </span>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -192,7 +184,7 @@ const homeContent = () => {
       <div className="position-relative container-laptop mb-5">
         <img
           src={process.env.PUBLIC_URL + "images/part-audit2.png"}
-          class="img-fluid laptop-img-bg"
+          className="img-fluid laptop-img-bg"
           alt="C'est vous qui le faite"
         />
 
@@ -236,102 +228,175 @@ const homeContent = () => {
           <div className="col-9 d-flex justify-content-between align-items-center">
             <img
               src={process.env.PUBLIC_URL + "images/google.png"}
-              class="img-fluid img-trust"
+              className="img-fluid img-trust"
               alt="C'est vous qui le faite"
             />
             <img
               src={process.env.PUBLIC_URL + "images/clear-correct.png"}
-              class="img-fluid  clear-correct "
+              className="img-fluid  clear-correct "
               alt="C'est vous qui le faite"
             />
             <img
               src={process.env.PUBLIC_URL + "images/one-duro.png"}
-              class="img-fluid  img-trust"
+              className="img-fluid  img-trust"
               alt="C'est vous qui le faite"
             />
             <img
               src={process.env.PUBLIC_URL + "images/istobe.png"}
-              class="img-fluid  img-trust "
+              className="img-fluid  img-trust "
               alt="C'est vous qui le faite"
             />
           </div>
         </div>
 
         {/* tab part home*/}
-
-        <div class="tab-content" id="myTabContent">
-          <div
-            class="tab-pane fade show active"
-            id="home"
-            role="tabpanel"
-            aria-labelledby="home-tab">
-            Un seule outil pour s'engage dans une demarche durable Un seule
-            outil pour s'engage dans une demarche durable Un seule outil pour
-            s'engage dans une demarche durable Un seule outil pour s'engage dans
-            une demarche durable
+        <div className="row justify-content-center tab-home py-5">
+          <div className="tab-content" id="myTabContent">
+            <div
+              className="tab-pane fade show active row"
+              id="client"
+              role="tabpanel"
+              aria-labelledby="client-tab">
+              <div className="col-6"></div>
+              <div className="col-6">
+                aaaa Un seule outil pour s'engage dans une demarche durable Un
+                seule outil pour s'engage dans une demarche durable Un seule
+                outil pour s'engage dans une demarche durable Un seule outil
+                pour s'engage dans une demarche durable
+              </div>
+            </div>
+            <div
+              className="tab-pane fade"
+              id="salarie"
+              role="tabpanel"
+              aria-labelledby="salarie-tab">
+              qqqqqqqqq Un seule outil pour s'engage dans une demarche durable
+              Un seule outil pour s'engage dans une demarche durable Un seule
+              outil pour s'engage dans une demarche durable Un seule outil pour
+              s'engage dans une demarche durable
+            </div>
+            <div
+              className="tab-pane fade"
+              id="investisseur"
+              role="tabpanel"
+              aria-labelledby="investisseur-tab">
+              sdsdsdUn seule outil pour s'engage dans une demarche durable Un
+              seule outil pour s'engage dans une demarche durable Un seule outil
+              pour s'engage dans une demarche durable Un seule outil pour
+              s'engage dans une demarche durable
+            </div>
+            <div
+              className="tab-pane fade"
+              id="fornisseur"
+              role="tabpanel"
+              aria-labelledby="fornisseur-tab">
+              sdeUn seule outil pour s'engage dans une demarche durable Un seule
+              outil pour s'engage dans une demarche durable Un seule outil pour
+              s'engage dans une demarche durable Un seule outil pour s'engage
+              dans une demarche durable
+            </div>
+            <div
+              className="tab-pane fade"
+              id="condidat"
+              role="tabpanel"
+              aria-labelledby="condidat-tab">
+              xxxUn seule outil pour s'engage dans une demarche durable Un seule
+              outil pour s'engage dans une demarche durable Un seule outil pour
+              s'engage dans une demarche durable Un seule outil pour s'engage
+              dans une demarche durable
+            </div>
+            <div
+              className="tab-pane fade"
+              id="associations"
+              role="tabpanel"
+              aria-labelledby="associations-tab">
+              Un seule outil pour s'engage dans une demarche durable Un seule
+            </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="profile"
-            role="tabpanel"
-            aria-labelledby="profile-tab">
-            Un seule outil pour s'engage dans une demarche durable Un seule
-            outil pour s'engage dans une demarche durable Un seule outil pour
-            s'engage dans une demarche durable Un seule outil pour s'engage dans
-            une demarche durable
-          </div>
-          <div
-            class="tab-pane fade"
-            id="contact"
-            role="tabpanel"
-            aria-labelledby="contact-tab">
-            Un seule outil pour s'engage dans une demarche durable Un seule
-            outil pour s'engage dans une demarche durable Un seule outil pour
-            s'engage dans une demarche durable Un seule outil pour s'engage dans
-            une demarche durable
-          </div>
+          <ul
+            className="nav nav-tabs d-flex justify-content-between py-5"
+            id="myTab-home"
+            role="tablist">
+            <li className="nav-item tab-li-home" role="client">
+              <button
+                className="nav-link active very-small-text tab-button-home ps-0 pt-4"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#client"
+                type="button"
+                role="tab"
+                aria-controls="client"
+                aria-selected="true">
+                Client , Contribuable
+              </button>
+            </li>
+            <li className="nav-item tab-li-home" role="salarie">
+              <button
+                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#salarie"
+                type="button"
+                role="tab"
+                aria-controls="salarie"
+                aria-selected="false">
+                Salarié , stagaire
+              </button>
+            </li>
+            <li className="nav-item tab-li-home" role="investisseur">
+              <button
+                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#investisseur"
+                type="button"
+                role="tab"
+                aria-controls="investisseur"
+                aria-selected="false">
+                Investisseur , partenaire
+              </button>
+            </li>
+            <li className="nav-item tab-li-home" role="fornisseur">
+              <button
+                className="nav-link very-small-text d-flex flex-column tab-button-home  ps-0 pt-4"
+                id="fornisseur-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#fornisseur"
+                type="button"
+                role="tab"
+                aria-controls="fornisseur"
+                aria-selected="false">
+                Fornisseur ,sous-traitant, <span>prestataire</span>
+              </button>
+            </li>
+            <li className="nav-item tab-li-home" role="condidat">
+              <button
+                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                id="condidat-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#condidat"
+                type="button"
+                role="tab"
+                aria-controls="condidat"
+                aria-selected="false">
+                Condidat Commercial
+              </button>
+            </li>
+            <li className="nav-item tab-li-home" role="associations">
+              <button
+                className="nav-link d-flex flex-column very-small-text tab-button-home  ps-0 pt-4"
+                id="associations-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#associations"
+                type="button"
+                role="tab"
+                aria-controls="associations"
+                aria-selected="false">
+                <span>Associations,media, </span> <span>tous les autres</span>
+              </button>
+            </li>
+          </ul>
         </div>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active"
-              id="home-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#home"
-              type="button"
-              role="tab"
-              aria-controls="home"
-              aria-selected="true">
-              Home
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="profile-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#profile"
-              type="button"
-              role="tab"
-              aria-controls="profile"
-              aria-selected="false">
-              Profile
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#contact"
-              type="button"
-              role="tab"
-              aria-controls="contact"
-              aria-selected="false">
-              Contact
-            </button>
-          </li>
-        </ul>
       </Container>
     </>
   );
