@@ -253,28 +253,42 @@ const homeContent = () => {
         <div className="row justify-content-center tab-home py-5">
           <div className="tab-content" id="myTabContent">
             <div
-              className="tab-pane fade show active row"
+              className="tab-pane fade show active row d-flex"
               id="client"
               role="tabpanel"
               aria-labelledby="client-tab">
-              <div className="col-6"></div>
               <div className="col-6">
-                aaaa Un seule outil pour s'engage dans une demarche durable Un
-                seule outil pour s'engage dans une demarche durable Un seule
-                outil pour s'engage dans une demarche durable Un seule outil
-                pour s'engage dans une demarche durable
+              <img
+              src={process.env.PUBLIC_URL + "images/costumer.png"}
+              className="img-fluid"
+              alt="C'est vous qui le faite"
+            />
+              
+
+
+              </div>
+              <div className="col-6  description-tab">
+              <h2 className="pb-4">
+              Client , Contribuable
+              </h2>
+              <p  class="text-justify">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br></br> <br></br>
+               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               </div>
             </div>
-            <div
-              className="tab-pane fade"
-              id="salarie"
-              role="tabpanel"
-              aria-labelledby="salarie-tab">
-              qqqqqqqqq Un seule outil pour s'engage dans une demarche durable
-              Un seule outil pour s'engage dans une demarche durable Un seule
-              outil pour s'engage dans une demarche durable Un seule outil pour
-              s'engage dans une demarche durable
-            </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div
               className="tab-pane fade"
               id="investisseur"
@@ -319,7 +333,7 @@ const homeContent = () => {
             role="tablist">
             <li className="nav-item tab-li-home" role="client">
               <button
-                className="nav-link active very-small-text tab-button-home ps-0 pt-4"
+                className="nav-link active  tab-button-home ps-0 pt-4"
                 id="home-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#client"
@@ -332,7 +346,7 @@ const homeContent = () => {
             </li>
             <li className="nav-item tab-li-home" role="salarie">
               <button
-                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                className="nav-link  tab-button-home  ps-0 pt-4"
                 id="profile-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#salarie"
@@ -345,7 +359,7 @@ const homeContent = () => {
             </li>
             <li className="nav-item tab-li-home" role="investisseur">
               <button
-                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                className="nav-link  tab-button-home  ps-0 pt-4"
                 id="contact-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#investisseur"
@@ -358,7 +372,7 @@ const homeContent = () => {
             </li>
             <li className="nav-item tab-li-home" role="fornisseur">
               <button
-                className="nav-link very-small-text d-flex flex-column tab-button-home  ps-0 pt-4"
+                className="nav-link  d-flex flex-column tab-button-home  ps-0 pt-4"
                 id="fornisseur-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#fornisseur"
@@ -371,7 +385,7 @@ const homeContent = () => {
             </li>
             <li className="nav-item tab-li-home" role="condidat">
               <button
-                className="nav-link very-small-text tab-button-home  ps-0 pt-4"
+                className="nav-link tab-button-home ps-0 pt-4"
                 id="condidat-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#condidat"
@@ -384,7 +398,7 @@ const homeContent = () => {
             </li>
             <li className="nav-item tab-li-home" role="associations">
               <button
-                className="nav-link d-flex flex-column very-small-text tab-button-home  ps-0 pt-4"
+                className="nav-link d-flex flex-column tab-button-home  ps-0 pt-4"
                 id="associations-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#associations"
