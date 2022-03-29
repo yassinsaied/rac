@@ -253,78 +253,202 @@ const homeContent = () => {
         <div className="row justify-content-center tab-home py-5">
           <div className="tab-content" id="myTabContent">
             <div
-              className="tab-pane fade show active row d-flex"
+              className="tab-pane fade show active"
               id="client"
               role="tabpanel"
               aria-labelledby="client-tab">
-              <div className="col-6">
-              <img
-              src={process.env.PUBLIC_URL + "images/costumer.png"}
-              className="img-fluid"
-              alt="C'est vous qui le faite"
-            />
-              
-
-
-              </div>
-              <div className="col-6  description-tab">
-              <h2 className="pb-4">
-              Client , Contribuable
-              </h2>
-              <p  class="text-justify">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br></br> <br></br>
-               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/costumer.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4">Client , Contribuable</h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages, and more
+                    recently with desktop publishing software like Aldus
+                    PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
               </div>
             </div>
- 
 
-
-
-
-
-
-
-
-
-
-
-
+            <div
+              className="tab-pane fade"
+              id="salarie"
+              role="tabpanel"
+              aria-labelledby="salarie-tab">
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/employee.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4">Salarié , stagaire</h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages.<br></br>{" "}
+                    <br></br>
+                    recently with desktop publishing software like Aldus
+                    PageMaker including versions of Lorem Ipsum versions of
+                    Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <div
               className="tab-pane fade"
               id="investisseur"
               role="tabpanel"
               aria-labelledby="investisseur-tab">
-              sdsdsdUn seule outil pour s'engage dans une demarche durable Un
-              seule outil pour s'engage dans une demarche durable Un seule outil
-              pour s'engage dans une demarche durable Un seule outil pour
-              s'engage dans une demarche durable
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/partenr.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4"> Investisseur , partenaire </h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages. recently
+                    with desktop publishing software like Aldus PageMaker
+                    including versions of Lorem Ipsum versions of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
             </div>
             <div
               className="tab-pane fade"
               id="fornisseur"
               role="tabpanel"
               aria-labelledby="fornisseur-tab">
-              sdeUn seule outil pour s'engage dans une demarche durable Un seule
-              outil pour s'engage dans une demarche durable Un seule outil pour
-              s'engage dans une demarche durable Un seule outil pour s'engage
-              dans une demarche durable
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/provider.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4">
+                    {" "}
+                    Fornisseur ,sous-traitant, prestataire{" "}
+                  </h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages. recently
+                    with desktop publishing software like Aldus PageMaker
+                    including versions of Lorem Ipsum versions of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
             </div>
+
             <div
               className="tab-pane fade"
               id="condidat"
               role="tabpanel"
               aria-labelledby="condidat-tab">
-              xxxUn seule outil pour s'engage dans une demarche durable Un seule
-              outil pour s'engage dans une demarche durable Un seule outil pour
-              s'engage dans une demarche durable Un seule outil pour s'engage
-              dans une demarche durable
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/provider.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4">Condidat , Commercial</h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages.
+                    <br></br>
+                    <br></br> recently with desktop publishing software like
+                    Aldus PageMaker including versions of Lorem Ipsum versions
+                    of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
             </div>
             <div
               className="tab-pane fade"
               id="associations"
               role="tabpanel"
               aria-labelledby="associations-tab">
-              Un seule outil pour s'engage dans une demarche durable Un seule
+              <div className="row d-flex">
+                <div className="col-6">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/associations.png"}
+                    className="img-fluid"
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
+                <div className="col-6  description-tab">
+                  <h2 className="pb-4"> Associations,media,tous les autres</h2>
+                  <p className="text-justify">
+                    simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.<br></br>{" "}
+                    <br></br>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages.
+                    <br></br>
+                    <br></br> recently with desktop publishing software like
+                    Aldus PageMaker including versions of Lorem Ipsum versions
+                    of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <ul
@@ -341,7 +465,14 @@ const homeContent = () => {
                 role="tab"
                 aria-controls="client"
                 aria-selected="true">
-                Client , Contribuable
+                <span> Client , Contribuable</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
             <li className="nav-item tab-li-home" role="salarie">
@@ -354,7 +485,14 @@ const homeContent = () => {
                 role="tab"
                 aria-controls="salarie"
                 aria-selected="false">
-                Salarié , stagaire
+                <span> Salarié , stagaire</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
             <li className="nav-item tab-li-home" role="investisseur">
@@ -367,7 +505,14 @@ const homeContent = () => {
                 role="tab"
                 aria-controls="investisseur"
                 aria-selected="false">
-                Investisseur , partenaire
+                <span>Investisseur , partenaire</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
             <li className="nav-item tab-li-home" role="fornisseur">
@@ -380,7 +525,14 @@ const homeContent = () => {
                 role="tab"
                 aria-controls="fornisseur"
                 aria-selected="false">
-                Fornisseur ,sous-traitant, <span>prestataire</span>
+                <span>Fornisseur ,sous-traitant,</span> <span>prestataire</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
             <li className="nav-item tab-li-home" role="condidat">
@@ -393,7 +545,14 @@ const homeContent = () => {
                 role="tab"
                 aria-controls="condidat"
                 aria-selected="false">
-                Condidat Commercial
+                <span>Condidat Commercial</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
             <li className="nav-item tab-li-home" role="associations">
@@ -407,6 +566,13 @@ const homeContent = () => {
                 aria-controls="associations"
                 aria-selected="false">
                 <span>Associations,media, </span> <span>tous les autres</span>
+                <div className="mt-4">
+                  <img
+                    src={process.env.PUBLIC_URL + "images/client.png"}
+                    className="img-fluid icon-tab shadow border "
+                    alt="C'est vous qui le faite"
+                  />
+                </div>
               </button>
             </li>
           </ul>
